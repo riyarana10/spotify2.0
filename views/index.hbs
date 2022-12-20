@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Spotify API</title>
+  <script src="https://kit.fontawesome.com/c0a664ee11.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+</head>
+<body>
+  <div class='searcher-index-container'>
+    <div class='searcher-index-little-container'>
+      <i class="fab fa-spotify"></i>
+      <h2>Music Player</p>
+      <form action="/artists" method="GET">
+        <input id="first-name-input" type="text" name="input">
+        <input class='searcher-button' type="submit" value="Search for">
+        <select class='searcher-button' name="type" id="type">
+          <option value="artist">Artists</option>
+          <option value="album">Albums</option>
+          <option value="track">Tracks</option>
+        </select>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
